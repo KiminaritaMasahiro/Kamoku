@@ -32,7 +32,7 @@ body{
     align-items: center;
     border-radius: 50px;
     box-shadow: 8px 8px;
-    transition: 1.5s;
+    transition     : 0.7s;
 }
 .box:hover{
     width: 300px;
@@ -42,8 +42,8 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    box-shadow: 8px 8px;
-    transition     : 1s;
+    box-shadow: 20px 20px;
+    transition     : 0.7s;
     transform: translateX(20px);
     transform: translateY(10px);
 }
