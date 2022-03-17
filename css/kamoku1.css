@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #6FB2D2;
+    background-color: #97DBAE;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@ body{
 .img{
     height: 100%;
     width: 46%;
-    background-color: #6FB2D2;
+    background-color: #F1E1A6;
 }
 .description{
     height: 100%;
@@ -47,7 +47,7 @@ body{
 .title{
     height: 100%;
     width: 8%;
-    background-color: #6FB2D2;
+    background-color: #F4BBBB;
     display:flex;
     justify-content: center;
     align-items: center;
