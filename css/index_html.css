@@ -41,7 +41,7 @@ body{
 
     width: 300px;
     height: 80px;
-    background-color:#85C88A;
+    background-color:#5cb162;
     border-radius: 50px;
     box-shadow: none;
     transform: translate3d(13px , 13px , 0px)
@@ -78,4 +78,57 @@ body{
     height: 100px;
     left: -30px;
     top: -30px;
+}
+
+/*テキスト　プログラミング　Java*/
+.text0::before{
+    font-size: 23px;
+    content: "プログラミング";
+    position:absolute;
+    top: 26px;
+    left: 90px;
+    transition: 0.6s;
+
+}
+.box_parent0:hover .text0::before{
+    transform: translateX(80px);
+    opacity: 0;
+}
+.text0::after{
+    content: "Java";
+    position:absolute;
+    left: -20px;
+    top: 20px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.box_parent0:hover .text0::after{
+    content: "Java";
+    transform: translateX(140px);
+    opacity: 1;
+}
+/*テキスト　英語　English*/
+.text1::before{
+    content: "英語";
+    position:absolute;
+    top: 26px;
+    left: 130px;
+    transition: 0.6s;
+
+}
+.box_parent1:hover .text1::before{
+    transform: translateX(80px);
+    opacity: 0;
+}
+.text1::after{
+    content: "English";
+    position:absolute;
+    left: -20px;
+    top: 26px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.box_parent1:hover .text1::after{
+    transform: translateX(140px);
+    opacity: 1;
 }
